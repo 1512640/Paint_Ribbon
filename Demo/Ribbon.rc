@@ -1,0 +1,67 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    Home_LabelTitle_RESID L"Home" /* LabelTitle Home_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    Hinh_LabelTitle_RESID L"Hinh" /* LabelTitle Hinh_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_open_LabelTitle_RESID L"Open" /* LabelTitle ID_open_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_save_LabelTitle_RESID L"Save" /* LabelTitle ID_save_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_exit_LabelTitle_RESID L"Exit" /* LabelTitle ID_exit_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_Hinh_tron_LabelTitle_RESID L"Hinh_tron" /* LabelTitle ID_Hinh_tron_LabelTitle_RESID: (null) */
+END
+
+ID_Hinh_tron_SmallImages_RESID    BITMAP    "anh\\Tron.bmp" /* SmallImages ID_Hinh_tron_SmallImages_RESID: (null) */
+ID_Hinh_tron_LargeImages_RESID    BITMAP    "anh\\Tron.bmp" /* LargeImages ID_Hinh_tron_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_Hinh_elip_LabelTitle_RESID L"Hinh_elip" /* LabelTitle ID_Hinh_elip_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_Hinh_chu_nhat_LabelTitle_RESID L"Hinh_chu_nhat" /* LabelTitle ID_Hinh_chu_nhat_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_Hinh_vuong_LabelTitle_RESID L"Hinh_vuong" /* LabelTitle ID_Hinh_vuong_LabelTitle_RESID: (null) */
+END
+
+ID_Hinh_vuong_SmallImages_RESID    BITMAP    "anh\\Vuong.bmp" /* SmallImages ID_Hinh_vuong_SmallImages_RESID: (null) */
+ID_Hinh_vuong_LargeImages_RESID    BITMAP    "anh\\Vuong.bmp" /* LargeImages ID_Hinh_vuong_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_Duong_thang_LabelTitle_RESID L"Duong_thang" /* LabelTitle ID_Duong_thang_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    fileMenu_LabelTitle_RESID L"Label:fileMenu" /* LabelTitle fileMenu_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"

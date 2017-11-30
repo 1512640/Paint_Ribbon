@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command Name="Home" LabelTitle ="Home"/>
+    <Command Name="Hinh" LabelTitle ="Hinh"/>
+    <Command Name="Open" LabelTitle ="Open" Symbol="ID_open"/>
+    <Command Name="Save" LabelTitle ="Save" Symbol="ID_save"/>
+    <Command Name="Exit" LabelTitle ="Exit" Symbol="ID_exit"/>
+    <Command Name="Hinh_tron" LabelTitle ="Hinh_tron" Symbol="ID_Hinh_tron">
+      <Command.LargeImages>
+        <Image Id="527">anh/Tron.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="527">anh/Tron.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="Hinh_elip" LabelTitle ="Hinh_elip" Symbol="ID_Hinh_elip"/>
+    
+    
+    <Command Name="Hinh_chu_nhat" LabelTitle ="Hinh_chu_nhat" Symbol="ID_Hinh_chu_nhat"/>
+    
+    <Command Name="Hinh_vuong" LabelTitle ="Hinh_vuong" Symbol="ID_Hinh_vuong">
+    <Command.LargeImages>
+      <Image Id="527">anh/Vuong.bmp</Image>
+    </Command.LargeImages>
+    <Command.SmallImages>
+      <Image Id="527">anh/Vuong.bmp</Image>
+    </Command.SmallImages>
+    </Command>
+
+    <Command Name="Duong_thang" LabelTitle ="Duong_thang" Symbol="ID_Duong_thang"/>
+  </Application.Commands>
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="fileMenu">
+          <MenuGroup>
+              <Button CommandName="Open" />
+             <Button CommandName="Save" />
+          </MenuGroup>
+          <MenuGroup>
+              <Button CommandName="Exit" />
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+      <Ribbon.Tabs>
+        <Tab CommandName="Home"  >
+          <Group CommandName ="Hinh" SizeDefinition="FiveButtons">
+            <Button CommandName ="Hinh_tron"/>
+            <Button CommandName ="Hinh_elip"/>
+            <Button CommandName ="Hinh_chu_nhat"/>
+            <Button CommandName ="Hinh_vuong"/>
+            <Button CommandName ="Duong_thang"/>
+          </Group>
+        </Tab>     
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>
